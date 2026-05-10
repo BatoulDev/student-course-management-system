@@ -1,16 +1,107 @@
-# React + Vite
+# Student Course Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Student Course Management System is a React.js web application developed as a frontend educational management platform. The application allows administrators to manage courses and students, authenticate users, navigate between pages, and simulate API operations using local JSON data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- User authentication with protected routes
+- Course management
+  - View courses
+  - Add courses
+  - Delete courses
+  - View course details
+- Student management
+  - View students
+  - Add students
+  - Delete students
+  - Search students by name
+- Dashboard with summary statistics
+- Responsive navigation and routing
+- Form validation and error handling
+- Simulated API requests using Fetch API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript ES6+
+- React Router DOM
+- Fetch API
+- CSS
+- Functional Components
+- React Hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── routes/
+├── services/
+├── data/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/BatoulDev/student-course-management-system.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd student-course-management-system
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Login Credentials
+
+```text
+Username: admin
+Password: 1234
+```
+
+## API Simulation
+
+The application simulates backend API operations using static JSON files and Fetch API methods.
+
+Supported operations:
+
+- GET courses
+- GET students
+- POST add course
+- POST add student
+- DELETE course
+- DELETE student
+
+## Error Handling
+
+The application handles:
+
+- Empty form validation
+- Invalid login credentials
+- API fetch errors
+- Empty course lists
+- Empty student lists
+
+## License
+
+This project was developed for educational purposes.
