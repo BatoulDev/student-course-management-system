@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Computer Science",
+    "instructor": "Dr. Ahmed Hassan",
+    "duration": "12 weeks",
+    "price": 299.99,
+    "status": "Active",
+    "studentsCount": 45,
+    "description": "A comprehensive introduction to computer science covering algorithms, data structures, and computational thinking."
+  },
+  {
+    "id": 2,
+    "title": "Web Development Fundamentals",
+    "instructor": "Prof. Sara Khalid",
+    "duration": "10 weeks",
+    "price": 249.99,
+    "status": "Active",
+    "studentsCount": 38,
+    "description": "Learn HTML, CSS, and JavaScript to build modern responsive websites from scratch."
+  },
+  {
+    "id": 3,
+    "title": "Data Structures & Algorithms",
+    "instructor": "Dr. Omar Mahmoud",
+    "duration": "14 weeks",
+    "price": 349.99,
+    "status": "Active",
+    "studentsCount": 52,
+    "description": "Deep dive into data structures, sorting algorithms, and problem-solving techniques."
+  },
+  {
+    "id": 4,
+    "title": "Database Management Systems",
+    "instructor": "Dr. Lina Jamal",
+    "duration": "8 weeks",
+    "price": 199.99,
+    "status": "Completed",
+    "studentsCount": 30,
+    "description": "Introduction to relational databases, SQL queries, and database design principles."
+  },
+  {
+    "id": 5,
+    "title": "Mobile App Development",
+    "instructor": "Eng. Khaled Nasser",
+    "duration": "12 weeks",
+    "price": 399.99,
+    "status": "Active",
+    "studentsCount": 28,
+    "description": "Build cross-platform mobile applications using React Native and modern frameworks."
+  },
+  {
+    "id": 6,
+    "title": "Artificial Intelligence",
+    "instructor": "Prof. Huda Ibrahim",
+    "duration": "16 weeks",
+    "price": 449.99,
+    "status": "Upcoming",
+    "studentsCount": 0,
+    "description": "Explore AI concepts including machine learning, neural networks, and natural language processing."
+  }
+]

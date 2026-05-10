@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Mohammed",
+    "email": "ali.mohammed@example.com",
+    "major": "Computer Science",
+    "age": 21
+  },
+  {
+    "id": 2,
+    "name": "Sara Hassan",
+    "email": "sara.hassan@example.com",
+    "major": "Information Technology",
+    "age": 22
+  },
+  {
+    "id": 3,
+    "name": "Omar Khaled",
+    "email": "omar.khaled@example.com",
+    "major": "Software Engineering",
+    "age": 20
+  },
+  {
+    "id": 4,
+    "name": "Lina Ahmad",
+    "email": "lina.ahmad@example.com",
+    "major": "Computer Science",
+    "age": 23
+  },
+  {
+    "id": 5,
+    "name": "Khaled Nour",
+    "email": "khaled.nour@example.com",
+    "major": "Data Science",
+    "age": 24
+  },
+  {
+    "id": 6,
+    "name": "Noor Waleed",
+    "email": "noor.waleed@example.com",
+    "major": "Cybersecurity",
+    "age": 22
+  },
+  {
+    "id": 7,
+    "name": "Rana Youssef",
+    "email": "rana.youssef@example.com",
+    "major": "Artificial Intelligence",
+    "age": 21
+  },
+  {
+    "id": 8,
+    "name": "Yousef Adel",
+    "email": "yousef.adel@example.com",
+    "major": "Computer Engineering",
+    "age": 23
+  }
+]
